@@ -1,25 +1,40 @@
-# Employee-Management-System
+# Employee Management System
 
-Technologies Used: Spring Boot, Spring Data JPA, MySQL, Postman, RESTful APIs
+## Overview
 
+The Employee Management System is a Spring Boot-based application designed to manage employee records. It supports CRUD (Create, Read, Update, Delete) operations for employee data using Spring Data JPA with a MySQL database. The application exposes a set of RESTful APIs, enabling users to manage employee details such as name, email, department, and position.
 
-Description:
+This project is created using Java Spring Boot and is tested using Postman.
 
-  - Developed a CRUD-based Employee Management System to manage employee records efficiently.
+## Features
 
-    - Designed and implemented RESTful APIs for performing Create, Read, Update, and Delete operations on employee data.
+- **Create Employee**: Allows users to add new employees with details such as name, email, department, and position.
+  
+- **Retrieve Employee**: Enables fetching employee details by their ID.
+  
+- **Update Employee**: Allows modification of employee information.
+  
+- **Delete Employee**: Provides functionality to remove an employee from the system.
+  
+- **Database Integration**: MySQL database is used to store employee data.
+  
+- **RESTful APIs**: All operations are accessible through RESTful APIs.
 
-      - Used Spring Boot for backend development and Spring Data JPA for database integration with MySQL.
+## Technologies Used
 
-    - Tested APIs using Postman to ensure proper functionality, error handling, and performance.
+**Backend:**
 
-   - Focused on clean code practices and adhered to RESTful standards for scalable and maintainable code.
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Hibernate
+- Spring Web (RESTful API)
 
+**Testing:**
 
-Key Features:
+- Postman (for testing APIs)
 
-  - API endpoints for adding, retrieving, updating, and deleting employee data.
-    
-  - Validation of input data to ensure data integrity.
+**Development Tools:**
 
-  - Seamless integration with MySQL for persistent storage and retrieval of data.
+- Java 8 or higher
+- Maven
